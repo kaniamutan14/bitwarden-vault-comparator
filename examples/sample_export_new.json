@@ -1,0 +1,154 @@
+{
+  "encrypted": false,
+  "folders": [
+    {"id": "f1a2b3c4-0000-0000-0000-000000000001", "name": "Email"},
+    {"id": "f1a2b3c4-0000-0000-0000-000000000002", "name": "Social"},
+    {"id": "f1a2b3c4-0000-0000-0000-000000000003", "name": "Finance"},
+    {"id": "f1a2b3c4-0000-0000-0000-000000000099", "name": "Streaming"}
+  ],
+  "items": [
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000001",
+      "type": 1,
+      "name": "Google Mail",
+      "folderId": "f1a2b3c4-0000-0000-0000-000000000001",
+      "favorite": true,
+      "notes": "Primary email. Recovery phone: 555-0199 (updated)",
+      "login": {
+        "username": "john.doe@gmail.com",
+        "password": "N3w$tronG_Gm@il2026!",
+        "totp": "otpauth://totp/Google:john.doe@gmail.com?secret=NEWTOTP3PXP&issuer=Google",
+        "uris": [
+          {"uri": "https://mail.google.com", "match": null},
+          {"uri": "https://accounts.google.com", "match": null}
+        ]
+      },
+      "fields": [
+        {"name": "Recovery Email", "value": "secure@proton.me", "type": 0},
+        {"name": "Recovery Phone", "value": "+1-555-0199", "type": 0}
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000002",
+      "type": 1,
+      "name": "X (Twitter)",
+      "folderId": "f1a2b3c4-0000-0000-0000-000000000002",
+      "favorite": false,
+      "notes": null,
+      "login": {
+        "username": "johndoe",
+        "password": "Tw1tter_Pass!",
+        "totp": "otpauth://totp/X:johndoe?secret=XTWITTER123",
+        "uris": [
+          {"uri": "https://x.com", "match": null},
+          {"uri": "https://twitter.com", "match": null}
+        ]
+      }
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000099",
+      "type": 2,
+      "name": "Twitter 2FA Backup Codes",
+      "favorite": false,
+      "notes": "2FA backup codes:\n11111111\n22222222\n33333333\n44444444 (new)",
+      "secureNote": {"type": 0}
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000003",
+      "type": 1,
+      "name": "Bank of America",
+      "folderId": "f1a2b3c4-0000-0000-0000-000000000003",
+      "favorite": false,
+      "notes": "Checking account #12345",
+      "login": {
+        "username": "john_boa",
+        "password": "B0A_Secur3!",
+        "totp": "otpauth://totp/BoA?secret=AABBCCDD",
+        "uris": [{"uri": "https://www.bankofamerica.com", "match": null}]
+      }
+    },
+    {
+      "id": "new-uuid-0000-0000-0000-000000000010",
+      "type": 1,
+      "name": "Netflix",
+      "folderId": "f1a2b3c4-0000-0000-0000-000000000099",
+      "favorite": false,
+      "notes": null,
+      "login": {
+        "username": "john.doe@gmail.com",
+        "password": "N3tflix_2026_Str0ng!",
+        "totp": null,
+        "uris": [{"uri": "https://www.netflix.com", "match": null}]
+      }
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000005",
+      "type": 2,
+      "name": "Server SSH Keys",
+      "favorite": false,
+      "notes": "Production: ssh-rsa AAAA...key1\nStaging: ssh-rsa AAAA...key2\nDev: ssh-rsa AAAA...key3",
+      "secureNote": {"type": 0}
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000006",
+      "type": 3,
+      "name": "Visa Platinum",
+      "favorite": false,
+      "notes": null,
+      "card": {
+        "cardholderName": "John Doe",
+        "brand": "Visa",
+        "number": "4222222222222222",
+        "expMonth": "06",
+        "expYear": "2028",
+        "code": "321"
+      }
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000007",
+      "type": 4,
+      "name": "Personal Identity",
+      "favorite": false,
+      "notes": null,
+      "identity": {
+        "title": "Mr",
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@gmail.com",
+        "phone": "555-0199",
+        "address1": "456 Oak Avenue",
+        "city": "Springfield",
+        "state": "IL",
+        "postalCode": "62701",
+        "country": "US"
+      }
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000020",
+      "type": 1,
+      "name": "Disney Plus",
+      "folderId": "f1a2b3c4-0000-0000-0000-000000000099",
+      "favorite": false,
+      "notes": null,
+      "login": {
+        "username": "john.doe@gmail.com",
+        "password": "D1sn3y_Plus!",
+        "totp": null,
+        "uris": [{"uri": "https://www.disneyplus.com", "match": null}]
+      }
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000021",
+      "type": 1,
+      "name": "GitHub",
+      "favorite": true,
+      "notes": null,
+      "login": {
+        "username": "johndoe-dev",
+        "password": "G1tHub_Str0ng!",
+        "totp": "otpauth://totp/GitHub:johndoe-dev?secret=GHTOTP456",
+        "uris": [{"uri": "https://github.com", "match": null}]
+      }
+    }
+  ]
+}

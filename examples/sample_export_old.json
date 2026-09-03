@@ -1,0 +1,123 @@
+{
+  "encrypted": false,
+  "folders": [
+    {"id": "f1a2b3c4-0000-0000-0000-000000000001", "name": "Email"},
+    {"id": "f1a2b3c4-0000-0000-0000-000000000002", "name": "Social Media"},
+    {"id": "f1a2b3c4-0000-0000-0000-000000000003", "name": "Finance"}
+  ],
+  "items": [
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000001",
+      "type": 1,
+      "name": "Gmail - Personal",
+      "folderId": "f1a2b3c4-0000-0000-0000-000000000001",
+      "favorite": true,
+      "notes": "Primary email. Recovery phone: 555-0100",
+      "login": {
+        "username": "john.doe@gmail.com",
+        "password": "MyGm@ilP4ss2024!",
+        "totp": "otpauth://totp/Google:john.doe@gmail.com?secret=JBSWY3DPEHPK3PXP&issuer=Google",
+        "uris": [{"uri": "https://mail.google.com", "match": null}]
+      },
+      "fields": [
+        {"name": "Recovery Email", "value": "backup@yahoo.com", "type": 0}
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000002",
+      "type": 1,
+      "name": "Twitter",
+      "folderId": "f1a2b3c4-0000-0000-0000-000000000002",
+      "favorite": false,
+      "notes": "2FA backup codes:\n11111111\n22222222\n33333333",
+      "login": {
+        "username": "johndoe",
+        "password": "Tw1tter_Pass!",
+        "totp": null,
+        "uris": [{"uri": "https://twitter.com", "match": null}]
+      }
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000003",
+      "type": 1,
+      "name": "Bank of America",
+      "folderId": "f1a2b3c4-0000-0000-0000-000000000003",
+      "favorite": false,
+      "notes": "Checking account #12345",
+      "login": {
+        "username": "john_boa",
+        "password": "B0A_Secur3!",
+        "totp": "otpauth://totp/BoA?secret=AABBCCDD",
+        "uris": [{"uri": "https://www.bankofamerica.com", "match": null}]
+      }
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000004",
+      "type": 1,
+      "name": "Netflix",
+      "favorite": false,
+      "notes": null,
+      "login": {
+        "username": "john.doe@gmail.com",
+        "password": "N3tflix_2024!",
+        "totp": null,
+        "uris": [{"uri": "https://www.netflix.com", "match": null}]
+      }
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000005",
+      "type": 2,
+      "name": "Server SSH Keys",
+      "favorite": false,
+      "notes": "Production: ssh-rsa AAAA...key1\nStaging: ssh-rsa AAAA...key2",
+      "secureNote": {"type": 0}
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000006",
+      "type": 3,
+      "name": "Visa Platinum",
+      "favorite": false,
+      "notes": null,
+      "card": {
+        "cardholderName": "John Doe",
+        "brand": "Visa",
+        "number": "4111111111111111",
+        "expMonth": "12",
+        "expYear": "2025",
+        "code": "789"
+      }
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000007",
+      "type": 4,
+      "name": "Personal Identity",
+      "favorite": false,
+      "notes": null,
+      "identity": {
+        "title": "Mr",
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john.doe@gmail.com",
+        "phone": "555-0100",
+        "address1": "123 Main Street",
+        "city": "Springfield",
+        "state": "IL",
+        "postalCode": "62701",
+        "country": "US"
+      }
+    },
+    {
+      "id": "a1b2c3d4-0000-0000-0000-000000000008",
+      "type": 1,
+      "name": "Old Forum Account",
+      "favorite": false,
+      "notes": "Haven't used this in years",
+      "login": {
+        "username": "jdoe2020",
+        "password": "forum123",
+        "totp": null,
+        "uris": [{"uri": "https://oldforum.example.com", "match": null}]
+      }
+    }
+  ]
+}
